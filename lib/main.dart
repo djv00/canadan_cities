@@ -66,6 +66,7 @@ class _MyHomePageState extends State<MyHomePage> {
               onPressed: () {
                 setState(() {
                   print("Delete ${myCities[index]}");
+                  myCities.removeAt(index); // Modify the onPressed to remove the List item
                 });
               },
             ),
