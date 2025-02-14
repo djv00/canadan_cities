@@ -34,6 +34,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   var myCities = <String>[
+    "Ottawa",
     "Toronto",
     "Montreal",
     "Vancouver",
